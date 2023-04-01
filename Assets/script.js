@@ -22,7 +22,7 @@ headerDate.textContent = today;
       $(this).removeClass('future');
       $(this).addClass('present');
 
-      //FUTURE: if the current hour is less than the timeblock the text area will be green.
+      //FUTURE: If the current hour is less than the timeblock the text area will be green.
 
     } else if (curHour < timeBlock) { 
       $(this).removeClass('past');
